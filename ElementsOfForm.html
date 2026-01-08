@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <meta charset="UTF-8">
+   <title>Elements Of Form</title>
+   </head>
+
+   <body>
+    <form action="/submit" method="post">
+        <fieldset> 
+            <legend>Данные пользователя</legend>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+
+    <body>
+       <label for="message">Message:</label>
+       <textarea id="message" name="message" rows="6" cols="50"></textarea>
+</body>
+
+<body>
+       <label for="country">Country:</label>
+       <select id="country" name="country" required>
+           <option value="">Select your country</option>
+           <option value="us">United States</option>
+           <option value="ca">Canada</option>
+           <option value="ru">Russia</option>
+       </select>
+
+       <button type="submit">Submit</button>
+       <button type="reset">Reset</button>
+       </fieldset>
+</body>
+
+</html>
