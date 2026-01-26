@@ -1,0 +1,24 @@
+#name {
+   background-color: yellow;
+   text-align: center;
+}
+
+.colored {
+    color:blue;
+
+}
+
+.list {
+    font-weight: bold;
+}
+
+.tag {
+    color:blue
+}
+#id {
+    color:red
+}
+
+.CLASS {
+    color:yellow
+}
