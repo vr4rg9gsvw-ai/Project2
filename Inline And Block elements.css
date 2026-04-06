@@ -1,0 +1,30 @@
+.BlockToInline {
+    color: black;
+    background-color: blue;
+    height: 30px;
+    display: inline;
+}
+
+.h1BlockToInline {
+    background-color: rgb(125, 164, 177);
+    display: inline;
+}
+.ImageToBlock {
+    display:block;
+}
+p {
+    font-size: 25px;
+    font:bolder;
+    display:inline;
+    background-color: rgb(255, 139, 6);
+}
+.StylisizedContainer {
+    display:block;
+    margin:20px;
+    padding:10px;
+}
+.StylisizedItem {
+    display:block;
+    margin:auto;
+    text-align: center;
+}
