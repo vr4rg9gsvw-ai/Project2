@@ -1,0 +1,23 @@
+.input:focus {
+    background-color: rgb(224, 224, 224);
+}
+.button:hover {
+    color:white;
+    background-color: rgb(17, 113, 168)
+}
+.listItem:first-child {
+    color:white;
+    background-color: black;
+}
+.listItem:last-child {
+    color:white;
+    background-color: gray;
+}
+
+.link:hover {
+    color:white;
+    background-color: rgb(17, 113, 168)
+}
+.textOdd:nth-child(odd) {
+    background-color: gray;
+}
